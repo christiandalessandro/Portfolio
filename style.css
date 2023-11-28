@@ -1,0 +1,382 @@
+body {
+background-color:  #FFB000;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+
+
+}
+
+.container {
+    background-color: #F1EFEF;
+    border-radius: 2%;
+    margin: 2%;
+    
+}
+
+.headers {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.mylogo {
+width: 80px;
+height: auto;
+max-width: 100%; 
+margin-top: 1.5%; 
+margin-left: 2.5%;
+border-radius: 50%;
+}
+
+.menu {
+list-style: none;
+display: flex;
+margin-right: 2.5%;
+
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+
+
+  
+  .presentazione {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+
+.testo {
+    display: flex;
+    flex-direction: column; /* Testo in colonna */
+}
+
+.chisono {
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.sommario {
+    font-size: 16px;
+
+}
+
+.icone {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5%;
+}
+
+.tag-icona,
+.bug-icona {
+    height: 120px;
+    margin-left: 40px; /* Aggiunge uno spazio tra le icone */
+}
+
+
+.titolo-progetti {
+margin-top: 8.5%;
+display: flex;
+justify-content: center;
+}
+
+.progetti {
+display: flex;
+justify-content: space-between;
+margin-top: 2.5%;
+}
+
+.img-tindog {
+  width: 50%;
+}
+
+.project-tindog {
+margin-right: 2.5%;
+margin-left: 2.5%;
+margin-top: 5%;
+}
+
+.secondo-progetto {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  }
+  
+  .img-lion {
+    width: 50%;
+  }
+  
+  .project-motivational {
+  margin-left: 2.5%;
+  margin-top: 5%;
+  }
+
+  .primary-button {
+    background-color:  #FFB000;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid;
+    margin-bottom: 10px;
+
+  }
+
+.sudime {
+margin-top: 4.5%;
+margin-left: 2.5%;
+}
+
+
+.contatti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.5%;
+  margin-left: 2.5%;
+}
+
+.scrivimi {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row-reverse;
+}
+
+.onepiece-img {
+width: 50%;
+margin-right: 15%;
+box-shadow: 2px 2px black;
+border: 3px solid;
+margin-bottom: 10px;
+
+
+}
+
+.secondary-button {
+  background-color:  #FFB000;
+  font-family: 'Inclusive Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Mooli', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+  box-shadow: 2px 2px black;
+  border: 3px solid;
+  margin-right: 40px;
+  height: 110px;
+  width: 140px;
+  font-size: 25px;
+  text-decoration: underline;
+  
+}
+
+.secondary-button:hover {
+  background-color: #FFD700; /* Cambia il colore di sfondo al passaggio del mouse */
+  color: blue; /* Cambia il colore del testo al passaggio del mouse */
+  text-decoration: none; /* Rimuovi l'effetto sottolineato al passaggio del mouse */
+}
+  
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFD700;
+height: 50px;
+border-radius: 4px;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+a {
+color: black;
+}
+
+
+
+
+
+
+
+
+  
+
+    @media (max-width: 768px) { /* Esempio: attiva il menu a tendina quando la larghezza dello schermo è inferiore a 768px */
+
+
+    
+     
+        .menu {
+          display: none;
+        }
+
+      
+
+    
+      
+        .nav-item {
+          display: block; /* Mostra ciascun elemento del menu come un blocco separato */
+          margin: 10px 0; /* Aggiunge spazio tra gli elementi del menu */
+        }
+        .mobile-menu-toggle {
+            display: block;
+            cursor: pointer;
+            font-size: 34px;
+            background-color: #FFB000;
+            border-radius: 30px;
+            box-shadow: 2px 2px black;
+            border: 3px solid;
+            color: black;
+            margin-right: 10px;
+           
+             /* Cambia la dimensione dell'icona o il testo dell'attivatore */
+            /* Aggiungi un'icona o testo per attivare/aprire il menu a tendina */
+          }
+        
+          .mobile-menu-open .menu {
+            display: flex; /* Mostra il menu quando il menu a tendina è aperto */
+            flex-direction: column; /* Imposta il layout delle voci del menu a colonna */
+          }
+          .headers {
+            flex-direction: row-reverse; /* Imposta il layout delle voci del menu a colonna */
+          }
+
+         .presentazione {
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5%;
+         }
+         
+         .images-loghi {
+         display: flex;
+         margin-left: 5%;
+         }
+
+         .presentazione {
+          display: flex;
+          justify-content:flex-start;
+          margin-left: 20px;
+          margin-bottom: 20px;
+      }
+      .testo {
+        display: flex;
+        flex-direction: column; /* Testo in colonna */
+    }
+
+    .icone {
+      display: flex;
+      flex-direction: column;
+    
+  }
+  .tag-icona,
+  .bug-icona {
+      width: auto;
+      height: 80px; /* Riduci l'altezza su dispositivi mobili */
+  }
+  
+
+
+
+  .progetti {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+  .img-tindog {
+  width: 100%;
+  }
+
+  .project-tindog {
+ text-align: center;
+    }
+
+
+    .secondo-progetto {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 3.5%;
+      }
+      
+      .img-lion {
+        width: 100%;
+      }
+      
+      .project-motivational {
+     text-align: center;
+      }
+
+      .sudime {
+        margin-top: 7.5%;
+        text-align: center;
+        }
+
+
+        .contatti {
+          display: flex;
+          flex-direction: column;
+          margin-top: 4.5%;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+  
+          
+        }   
+       
+
+        .scrivimi {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          }
+        
+
+        .footer {
+        margin-top: 15px;
+        }
+
+
+        }
+
+
+
+      
+
+   
+   
+
+
+     
+
+
+        @media (min-width: 768px) {
+            .mobile-menu-toggle {
+              display: none; /* Nascondi il menu a tendina su schermi più larghi */
+            }
+          }
+ 
+  
